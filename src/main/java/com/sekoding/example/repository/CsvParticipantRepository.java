@@ -82,7 +82,7 @@ public class CsvParticipantRepository implements ParticipantRepository {
         List<Participant> participants = new ArrayList<>();
 
         participants.add(new Participant("Aep"));
-        participants.add(new Participant("Hendrik"));
+        participants.add(new Participant("Hendrik","Hobby : basket"));
         participants.add(new Participant("Yusnan"));
         participants.add(new Participant("Yudhi"));
         
