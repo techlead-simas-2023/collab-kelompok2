@@ -81,13 +81,11 @@ public class CsvParticipantRepository implements ParticipantRepository {
     private static List<Participant> createKelompok2() {
         List<Participant> participants = new ArrayList<>();
 
-
         participants.add(new Participant("Aep","Tamiya"));
         participants.add(new Participant("Hendrik","Hobby : basket"));
         participants.add(new Participant("Yusnan", "Bernyanyi"));
-        participants.add(new Participant("Yudhi"));
+        participants.add(new Participant("Yudhi", "Berenang"));
         
-
         return participants;
     }
 
